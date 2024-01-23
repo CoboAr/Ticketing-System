@@ -72,3 +72,24 @@ To perform these sets of tests a python script (run_test.py) and a jar file of t
 
 Run this command on terminal to start testing:  python3 run_test.py please.jar input_tests expected_output_tests
 
+https://github.com/CoboAr/Ticketing-System/assets/144629565/79bbc69e-ba87-4ecd-b154-d564fe2d0be2
+
+A list of all detailed tests is provided in phase 2.
+
+## Phase 3
+
+A complete version of the program including the back end as well. A complete class diagram is accomplished in this phase.   
+
+## Phase 4
+
+White box testing. White box testing focuses on the internal logic, code, and structure of the software. Treats the software as a "white box" with full visibility into its internal workings.
+
+CentralCore and User classes are tested with JUnit.  
+
+https://github.com/CoboAr/Ticketing-System/assets/144629565/d48ef10f-5381-4116-9ae9-f374bdbf87b2
+
+A detailed table of results is provided in this phase.     
+
+Enjoy! And please do let me know if you have any comments, constructive criticism, and/or bug reports.
+## Author
+## Arnold Cobo
