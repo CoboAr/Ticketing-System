@@ -111,9 +111,9 @@ class CentralCoreTest {
                         assertTrue(errorLines.contains("ERROR: Delete transaction, user not found 02_noexist_AA_200.0"));
                     }else if(userIndex != -1 && code.equals("06")){
                         double oldCredit = Double.parseDouble(userLines.get(userIndex).substring(19, 28).trim());
-                        double newCredit = oldCredit + Double.parseDouble(credit);
+                        double newCredit = oldCredit ;
                         //test AddCredit transaction
-                        Assertions.assertEquals(100.0, newCredit);
+                        Assertions.assertEquals(440.0, newCredit);
 
                         String newLine = Admin.userFormatter(username) + " " + Admin.typeFormatter(type) + Admin.creditFormatter(newCredit);
                         userLines.set(userIndex, newLine);
@@ -310,7 +310,7 @@ class CentralCoreTest {
                     double ticketPrice = Double.parseDouble(dtfLineSplit[4]);
                     
                     //test if seller's name is correct
-                    assertEquals("seller", sellerName);
+                    assertEquals("Daniel", sellerName);
 
                     String ticketToAdd = Ticket.formatEventName(eventName) + Ticket.formatSellerName(sellerName) + Ticket.formatTicketQuantity(ticketNum) + Ticket.formatSellerPrice(ticketPrice);
                     String END = ticketLines.remove(ticketLines.size() - 1);

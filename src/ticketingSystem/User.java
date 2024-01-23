@@ -367,7 +367,7 @@ public abstract class User {
 			//Save this information in the dailytransaction file
 			CentralCore.addCreditTransaction(this.username, credit_to_add, 6, this.usertype);
 			User currUser = CentralCore.findUser(username);
-			//CentralCore.addCredFileChange(currUser.getUsername(), credit_to_add);
+			CentralCore.addCredFileChange(currUser.getUsername(), credit_to_add);
 			currUser.setCredit(currUser.getCredit() + credit_to_add);
 			System.out.println("New credit is: " + currUser.getCredit());
             System.out.println("Added add credit transaction to daily transaction list.");

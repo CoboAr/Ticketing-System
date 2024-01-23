@@ -643,7 +643,7 @@ public class CentralCore {
         List<String> errorLines = new ArrayList<String>();
         String errorLine = "";
 
-        File errorFile = new File("../error.txt");
+        File errorFile = new File("error.txt");
         try{
             BufferedReader fr = new BufferedReader(new FileReader(errorFile));
             while((errorLine = fr.readLine()) != null){
