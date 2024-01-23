@@ -1,0 +1,12 @@
+Welcome to the ticket system
+Enter a command, or 'Commands' for a list of commands.
+Please enter your username.
+Login successful
+Enter a command, or 'Commands' for a list of commands.
+Select operation: fetch requests / new refund / cancel
+Enter seller username
+Enter buyer username
+Enter the refund credit amount
+Successfully added 1.00 to buyer wallet, resulting in 84.00
+Successfully subtracted 1.00 from Daniel wallet, resulting in 213.00
+Added refund transaction to the daily transaction list.

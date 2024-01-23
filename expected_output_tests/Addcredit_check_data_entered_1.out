@@ -1,0 +1,13 @@
+Welcome to the ticket system
+Enter a command, or 'Commands' for a list of commands.
+Please enter your username.
+Login successful
+Enter a command, or 'Commands' for a list of commands.
+Enter the amount you want to add as credit:
+The amount entered is not correct!
+Enter the amount you want to add as credit:
+New credit is: 604.8
+Enter a command, or 'Commands' for a list of commands.
+Logout successful.
+Enter a command, or 'Commands' for a list of commands.
+Process finished with exit code 0

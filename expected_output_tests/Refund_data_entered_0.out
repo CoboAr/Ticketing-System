@@ -1,0 +1,10 @@
+Welcome to the ticket system
+Enter a command, or 'Commands' for a list of commands.
+Please enter your username.
+Login successful
+Enter a command, or 'Commands' for a list of commands.
+Select operation: new refund / cancel
+Enter buyer username
+Accept request Test Arnold 100.000000 100.000000 7.000000 ?
+Successfully added 7.00 to Arnold wallet, resulting in 107.00
+Successfully subtracted 7.00 from Test wallet, resulting in 93.00
